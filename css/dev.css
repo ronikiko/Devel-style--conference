@@ -17,7 +17,7 @@ header {
     height: 530px;
 }
 .top-holder {
-    padding: 15px;
+    padding: 0 15px 0 15px;
     display: flex;
     align-items: flex-end;  
     justify-content: space-between;
@@ -36,7 +36,7 @@ header {
 }
 
 
-header, section {
+header {
     background-color:#2E3F4E;
 }
 header h1 {
@@ -178,4 +178,85 @@ footer a {
     margin-left: auto;
 }
 
+/* ===========Speakers Css ====== */
 
+.content-speakers {
+    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+}
+.p-speakers {
+    height: auto;
+    padding-bottom: 30px;
+}
+.content-speakers {
+    padding:30px;
+    text-align: center;
+}
+.content-speakers .con-title {
+    margin: 0;
+}
+.content-speakers  p {
+    color: #888;
+    font-weight: 300;
+    line-height: 33px;
+    font-size: 21px;
+}
+.m-speakers {
+    margin-top: 50px;
+}
+.speaker-area {
+    display: flex;
+    justify-content: space-between;
+}
+.speaker {
+    width: 60%;
+}
+.speaker p a {
+    color: #648880;
+    text-decoration: none;
+    border-bottom: 1px solid #dfe2e5;
+}
+
+.image-side {
+    border: 1px solid #dfe2e5;
+    border-radius: 5px;
+    padding: 75px 70px 20px 40px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    margin-right: 30px;
+}
+.image-side img {
+    position: absolute;
+    top: -70px;
+    left:25%;
+    border-radius: 50%;
+    width:130px;
+    height: 130px;
+}
+.image-side ul {
+    list-style-type: none;
+}
+.image-side a {
+    color: #648880;
+    text-decoration: none;
+    font-weight: 300;
+}
+.speaker p {
+    color: #888;
+    font-weight: 300;
+    line-height: 22px;
+}
+.speaker h2 {
+    font-size: 24px;
+    line-height: 44px;
+    color: #648880;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.speaker h5 {
+    color: #a9b2b9;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 0;
+}
