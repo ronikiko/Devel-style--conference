@@ -10,8 +10,6 @@ body {
     margin: 0 auto;
 }
 
-
-
 /* ======== TOPSITE (HEADER) AREA ============== */
 header {
     height: 530px;
@@ -78,7 +76,7 @@ date {
     text-decoration: none;
     font-weight: 400;
     border: 1px solid #fff;
-    padding: 24px;
+    padding: 24px 33px;
     text-transform: uppercase;
 }
 .content {
@@ -109,18 +107,19 @@ date {
     padding: 20px;
     border-radius: 5px;
 }
-
+.btn:hover {
+    background: #ccc;
+    color: #000;
+}
 
 /* ======== MAIN AREA ============== */
 .row {
     display : flex;
     padding: 66px 0 44px 0;
 }
-
 main {
     height: 100%;
 }
-
 .holder {
     width: 33%;
     padding: 0 15px 0 15px;
